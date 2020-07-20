@@ -1,0 +1,21 @@
+{
+    "version": "0.2.3",
+    "configurations": [
+        {
+            "name": "Cortex debug",
+            "armToolchainPath": "/usr/bin/",
+            // "gdbpath": "/home/vlad/Desktop/gcc-arm-none-eabi-7-2018-q2-update/bin",
+            "type": "cortex-debug",
+            "request": "launch",
+            "servertype": "openocd",
+            "cwd": "${workspaceFolder}",
+            "executable": "build/STAG_DataLogging.elf",
+            "svdFile": ".vscode/STM32F7x9.svd",
+            "configFiles": [
+                ".vscode/stlink-v2-1.cfg",
+                ".vscode/stm32f7x.cfg"
+            ],
+            "preLaunchTask": "Build project"
+        }
+    ]
+}
