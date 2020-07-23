@@ -114,6 +114,8 @@ void Error_Handler(void);
 #define FB_RES_3K
 // Uncomment if you want to send the pressure values as float instead of uint16_t
 //#define FLOAT_Pressure
+// Uncomment if you want to test how well the threshold works for detecting object contacts
+#define TEST_THRESH
 /* USER CODE END Private defines */
 
 #ifdef __cplusplus
