@@ -32,11 +32,6 @@ An easy way to log the incoming UART data is using Tera Term's built-in log func
 However, moving any Tera Term window during an ongoing transmission leads to loss of data!
 
 
-## History
-
-* **July 2020**: Code uploaded to GitLab.
-
-
 ## Contact
 
 Please email any questions or comments to [geigerf@student.ethz.ch](geigerf@student.ethz.ch).
